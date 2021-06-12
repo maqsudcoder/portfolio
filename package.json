@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/maqsudcoder/portfolio/issues"
   },
-  "homepage": "https://github.com/maqsudcoder/portfolio#readme"
+  "homepage": "https://github.com/maqsudcoder/portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
 }
