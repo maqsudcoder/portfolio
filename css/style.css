@@ -11,11 +11,38 @@ html {
 body {
   box-sizing: border-box; }
 
+.heading-primary {
+  color: white;
+  text-transform: uppercase; }
+  .heading-primary__main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem; }
+  .heading-primary__sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 3.5rem; }
+
 .header {
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(0, 242, 152, 0.8), rgba(7, 247, 247, 0.8)), url(../img/hero.jpg);
   background-size: cover;
-  background-position: top; }
+  background-position: top;
+  position: relative; }
+  .header__logo-box {
+    position: absolute;
+    top: 6rem;
+    left: 6rem; }
+  .header__logo {
+    width: 6rem; }
+  .header__box {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
 @media screen and (min-width: 112.5em) {
   html {
