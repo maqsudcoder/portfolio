@@ -1,1 +1,2 @@
 # Colors
+- color-black : #000000
