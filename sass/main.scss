@@ -1,6 +1,17 @@
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+
 @import 'layout/header';
 
-// edditional
+@import 'pages/home';
+
+// additional
 @media screen and (min-width: 112.5em) {
 	html {
 		font-size: 75%;
