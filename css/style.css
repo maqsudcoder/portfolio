@@ -1,6 +1,19 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
 .header {
   height: 100vh;
-  background-image: linear-gradient(to right bottom, rgba(0, 242, 152, 0.8), rgba(7, 247, 247, 0.6)), url(../img/background.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 242, 152, 0.8), rgba(7, 247, 247, 0.8)), url(../img/hero.jpg);
   background-size: cover;
   background-position: top; }
 
