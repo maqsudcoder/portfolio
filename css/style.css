@@ -1,0 +1,9 @@
+.header {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(0, 242, 152, 0.8), rgba(7, 247, 247, 0.6)), url(../img/background.jpg);
+  background-size: cover;
+  background-position: top; }
+
+@media screen and (min-width: 112.5em) {
+  html {
+    font-size: 75%; } }
