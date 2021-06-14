@@ -61,8 +61,10 @@ p {
       color: #00d7bb;
       padding-right: 1rem; }
 
-.u-text-align-center {
-  text-align: center; }
+.u-align-center-vertcally {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); }
 
 .header {
   height: 100vh;
