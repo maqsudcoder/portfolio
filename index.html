@@ -60,11 +60,14 @@
 
     <!-- vanilla tilt js -->
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script type="text/javascript">
         VanillaTilt.init(document.querySelector(".header__img"), {
             max: 10,
             speed: 400
         });
+        ScrollReveal().reveal('.header__img');
+        ScrollReveal().reveal('.section-about__img-box');
     </script>
 </body>
 
