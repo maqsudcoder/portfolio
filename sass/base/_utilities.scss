@@ -1,1 +1,5 @@
-.u-text-align-center { text-align: center;}
+.u-align-center-vertcally {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
