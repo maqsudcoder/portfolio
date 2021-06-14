@@ -17,7 +17,11 @@
 
 	&__box {
 		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		row-gap: 3rem;
 		position: absolute;
+		width: 110rem;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
