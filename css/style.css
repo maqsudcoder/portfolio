@@ -83,6 +83,8 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+  .header__img {
+    border-radius: 5px; }
 
 .section-about {
   background-color: #22252c;
