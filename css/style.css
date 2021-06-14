@@ -14,7 +14,12 @@ body {
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  line-height: 1.7; }
+  line-height: 1.7;
+  font-size: 1.7rem; }
+
+p {
+  font-size: 1.6rem;
+  color: white; }
 
 .heading-primary {
   color: white;
@@ -23,7 +28,7 @@ body {
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    letter-spacing: .5rem; }
+    letter-spacing: 0.5rem; }
   .heading-primary__main {
     display: block;
     font-size: 7.2rem;
@@ -35,9 +40,30 @@ body {
     font-weight: 700;
     letter-spacing: 1.07rem; }
 
+.heading-secondary {
+  font-size: 4rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right bottom, #00f298, #07f7f7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; }
+
+.section-about__list {
+  list-style: none;
+  color: #fff; }
+  .section-about__list-item {
+    font-size: 1.8rem;
+    line-height: 2.5;
+    color: white; }
+    .section-about__list-item--bold {
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #00d7bb;
+      padding-right: 1rem; }
+
 .header {
   height: 100vh;
-  background-image: linear-gradient(to right bottom, rgba(0, 242, 152, 0.8), rgba(7, 247, 247, 0.8)), url(../img/hero.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 242, 152, 0.6), rgba(7, 247, 247, 0.6)), url(../img/hero.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
@@ -57,6 +83,40 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+
+.section-about {
+  background-color: #22252c;
+  height: 100vh;
+  position: relative; }
+  .section-about__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 110rem;
+    transform: translate(-50%, -50%); }
+    .section-about__row--1 {
+      display: inline-block; }
+  .section-about__img {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    width: 35rem;
+    height: 35rem;
+    object-fit: cover;
+    object-position: center; }
+    .section-about__img--shape {
+      display: inline-block;
+      height: 35rem;
+      width: 35rem;
+      border: 1rem solid #00d7bb;
+      position: absolute;
+      bottom: 3rem;
+      left: 3rem;
+      z-index: -1; }
 
 @media screen and (min-width: 112.5em) {
   html {
