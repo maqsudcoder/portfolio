@@ -41,7 +41,6 @@ p {
     letter-spacing: 1.07rem; }
 
 .heading-secondary {
-  display: inline-block;
   font-size: 4rem;
   text-transform: uppercase;
   background-image: linear-gradient(to right bottom, #00f298, #07f7f7);
@@ -62,8 +61,8 @@ p {
       color: #00d7bb;
       padding-right: 1rem; }
 
-.u-margin-auto {
-  margin: auto; }
+.u-text-align-center {
+  text-align: center; }
 
 .header {
   height: 100vh;
