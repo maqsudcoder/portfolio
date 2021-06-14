@@ -6,39 +6,39 @@
 	&__row {
 		display: flex;
 		flex-direction: row;
-        justify-content: space-between;
+		justify-content: space-between;
+		align-items: center;
 		gap: 15rem;
 		position: absolute;
 		left: 50%;
 		top: 50%;
-        width: 110rem;
+		width: 110rem;
 		transform: translate(-50%, -50%);
 
-        &--1 {
-            display: inline-block;
-        }
+		&--1 {
+			display: inline-block;
+		}
 	}
 
-    
+	&__img-box {
+		display: inline-block;
+		position: relative;
+	}
 
 	&__img {
-        display: inline-block;
-        width: 50%;
-		position: relative;
 		width: 35rem;
 		height: 35rem;
 		object-fit: cover;
 		object-position: center;
+	}
 
-		&--shape {
-            display: inline-block;
-			height: 35rem;
-			width: 35rem;
-			border: 1rem solid $color-primary;
-			position: absolute;
-			bottom: 3rem;
-			left: 3rem;
-			z-index: -1;
-		}
+	&__img-shape {
+		position: absolute;
+		bottom: 3rem;
+		left: 3rem;
+		height: 35rem;
+		width: 35rem;
+		border: 1rem solid $color-primary;
+		z-index: -1;
 	}
 }
