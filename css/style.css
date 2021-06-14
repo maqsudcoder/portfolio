@@ -99,8 +99,6 @@ p {
     top: 50%;
     width: 110rem;
     transform: translate(-50%, -50%); }
-    .section-about__row--1 {
-      display: inline-block; }
   .section-about__img-box {
     display: inline-block;
     position: relative; }
