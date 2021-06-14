@@ -2,6 +2,12 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	line-height: 1.7;
+	font-size: 1.7rem;
+}
+
+p {
+	font-size: 1.6rem;
+	color: white;
 }
 
 .heading-primary {
@@ -12,7 +18,7 @@ body {
 		display: block;
 		font-size: 2rem;
 		font-weight: 700;
-		letter-spacing: .5rem;
+		letter-spacing: 0.5rem;
 	}
 
 	&__main {
@@ -27,5 +33,32 @@ body {
 		font-size: 2rem;
 		font-weight: 700;
 		letter-spacing: 1.07rem;
+	}
+}
+
+.heading-secondary {
+	font-size: 4rem;
+	text-transform: uppercase;
+	background-image: linear-gradient(to right bottom, $color-gradient-green, $color-gradient-blue);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+
+.section-about__list {
+	list-style: none;
+	color: $color-white;
+
+	&-item {
+		font-size: 1.8rem;
+		line-height: 2.5;
+		color: white;
+
+		&--bold {
+			font-weight: 500;
+			text-transform: uppercase;
+			color: $color-primary;
+			padding-right: 1rem;
+		}
 	}
 }
