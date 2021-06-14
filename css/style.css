@@ -19,16 +19,21 @@ body {
 .heading-primary {
   color: white;
   text-transform: uppercase; }
+  .heading-primary__small {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .5rem; }
   .heading-primary__main {
     display: block;
-    font-size: 6rem;
+    font-size: 7.2rem;
     font-weight: 400;
-    letter-spacing: 3.5rem; }
+    letter-spacing: 2rem; }
   .heading-primary__sub {
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    letter-spacing: 3.5rem; }
+    letter-spacing: 1.07rem; }
 
 .header {
   height: 100vh;
@@ -44,7 +49,11 @@ body {
     width: 6rem; }
   .header__box {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 3rem;
     position: absolute;
+    width: 110rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
