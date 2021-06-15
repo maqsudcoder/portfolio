@@ -130,15 +130,26 @@ p {
 
 .section-interests {
   background-color: #22252c;
-  height: 50vh; }
+  height: 50vh;
+  position: relative; }
   .section-interests__list {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    width: 90rem;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
   .section-interests__list-item {
-    height: 6rem;
-    width: 6rem;
+    display: inline-block;
+    height: 8rem;
+    width: 8rem;
     border-radius: 50%;
-    border: 3rem solid #00d7bb; }
+    border: 3px solid #00d7bb; }
+    .section-interests__list-item:hover {
+      border: none;
+      background-image: linear-gradient(to right bottom, #00f298, #07f7f7); }
 
 @media screen and (min-width: 112.5em) {
   html {
