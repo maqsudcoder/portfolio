@@ -156,7 +156,7 @@ p {
       font-size: 3.5rem;
       color: #00d7bb; }
     .section-interests__list-item:hover {
-      box-shadow: none;
+      box-shadow: #00f2993b 0px 0px 40px 0px;
       background-image: linear-gradient(to right bottom, #00f298, #07f7f7);
       cursor: pointer;
       animation: pulse;
@@ -164,7 +164,7 @@ p {
       animation-duration: 1s;
       /* don't forget to set a duration! */ }
       .section-interests__list-item:hover i {
-        color: #fff; }
+        color: #22252c; }
 
 .professional-skills__heading {
   position: relative;
