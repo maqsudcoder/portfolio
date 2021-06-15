@@ -11,6 +11,10 @@ html {
 body {
   box-sizing: border-box; }
 
+::selection {
+  color: #22252c;
+  background-color: #00d7bb; }
+
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -41,9 +45,10 @@ p {
     letter-spacing: 1.07rem; }
 
 .heading-secondary {
+  display: inline-block;
   font-size: 4rem;
   text-transform: uppercase;
-  background-image: linear-gradient(to right bottom, #00f298, #07f7f7);
+  background-image: linear-gradient(to right, #00f298, #07f7f7);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent; }
@@ -126,6 +131,14 @@ p {
 .section-interests {
   background-color: #22252c;
   height: 50vh; }
+  .section-interests__list {
+    display: flex;
+    flex-direction: row; }
+  .section-interests__list-item {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    border: 3rem solid #00d7bb; }
 
 @media screen and (min-width: 112.5em) {
   html {
