@@ -158,9 +158,23 @@ p {
     .section-interests__list-item:hover {
       box-shadow: none;
       background-image: linear-gradient(to right bottom, #00f298, #07f7f7);
-      cursor: pointer; }
+      cursor: pointer;
+      animation: pulse;
+      /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 1s;
+      /* don't forget to set a duration! */ }
       .section-interests__list-item:hover i {
         color: #fff; }
+
+.professional-skills__heading {
+  position: relative;
+  padding: 6rem 0;
+  background-color: #22252c;
+  text-align: center; }
+
+.professional-skills__box {
+  position: relative;
+  background-color: #313741; }
 
 @media screen and (min-width: 112.5em) {
   html {
