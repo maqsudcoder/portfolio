@@ -39,13 +39,10 @@
 	}
 }
 
-
-
 .section-interests {
 	background-color: $color-grey-dark;
 	height: 50vh;
 	position: relative;
-
 
 	&__list {
 		display: flex;
@@ -76,22 +73,20 @@
 		}
 
 		&:hover {
-			box-shadow: none;
+			box-shadow: #00f2993b 0px 0px 40px 0px;
 			background-image: linear-gradient(to right bottom, #00f298, #07f7f7);
 			cursor: pointer;
 			animation: pulse; /* referring directly to the animation's @keyframe declaration */
 			animation-duration: 1s; /* don't forget to set a duration! */
 
 			i {
-				color: $color-white;
+				color: $color-grey-dark;
 			}
 		}
 	}
 }
 
 .professional-skills {
-
-
 	&__heading {
 		position: relative;
 		padding: 6rem 0;
