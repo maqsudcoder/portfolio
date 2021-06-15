@@ -40,6 +40,18 @@
 }
 
 .section-interests {
-    background-color: $color-grey-dark;
-    height: 50vh;
+	background-color: $color-grey-dark;
+	height: 50vh;
+
+	&__list {
+		display: flex;
+		flex-direction: row;
+	}
+
+	&__list-item {
+		height: 6rem;
+		width: 6rem;
+		border-radius: 50%;
+		border: 3rem solid $color-primary;
+	}
 }
