@@ -142,28 +142,29 @@ p {
     left: 50%;
     transform: translate(-50%, -50%); }
   .section-interests__list-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center; }
+  .section-interests__list-icon {
     position: relative;
-    display: inline-block;
+    display: inline-flex;
     height: 8rem;
     width: 8rem;
     border-radius: 50%;
-    box-shadow: inset 0 0 0 3px #00d7bb; }
-    .section-interests__list-item i {
+    box-shadow: inset 0 0 0 3px #00d7bb;
+    padding-bottom: 4rem; }
+    .section-interests__list-icon i {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 3.5rem;
       color: #00d7bb; }
-    .section-interests__list-item:hover {
+    .section-interests__list-icon:hover {
       box-shadow: #00f2993b 0px 0px 40px 0px;
       background-image: linear-gradient(to right bottom, #00f298, #07f7f7);
-      cursor: pointer;
-      animation: pulse;
-      /* referring directly to the animation's @keyframe declaration */
-      animation-duration: 1s;
-      /* don't forget to set a duration! */ }
-      .section-interests__list-item:hover i {
+      cursor: pointer; }
+      .section-interests__list-icon:hover i {
         color: #22252c; }
 
 .professional-skills__heading {
