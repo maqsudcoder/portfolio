@@ -66,6 +66,13 @@ p {
       color: #00d7bb;
       padding-right: 1rem; }
 
+.progress__percentage {
+  position: absolute;
+  left: 50%;
+  top: -2rem;
+  transform: translate(-50%, -50%);
+  color: white; }
+
 .u-align-center-vertcally {
   position: absolute;
   left: 50%;
@@ -89,9 +96,21 @@ p {
     .progress__line-part {
       position: relative;
       height: 100%;
-      width: 85%;
+      width: 0;
       background-color: #00d7bb;
       border-radius: inherit; }
+    .progress__line .p-html {
+      width: 85%; }
+    .progress__line .p-css {
+      width: 80%; }
+    .progress__line .p-javascript {
+      width: 65%; }
+    .progress__line .p-react {
+      width: 40%; }
+    .progress__line .p-angular {
+      width: 40%; }
+    .progress__line .p-python {
+      width: 40%; }
   .progress__dot {
     position: absolute;
     right: -1rem;
@@ -163,7 +182,8 @@ p {
 .section-interests {
   background-color: #22252c;
   height: 50vh;
-  position: relative; }
+  position: relative;
+  color: white; }
   .section-interests__list {
     display: flex;
     flex-direction: row;
