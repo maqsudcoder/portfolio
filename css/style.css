@@ -83,7 +83,7 @@ p {
     font-size: 1.8rem; }
   .progress__line {
     height: 1rem;
-    width: 50rem;
+    width: 30rem;
     background-color: #22252c;
     border-radius: 5rem; }
     .progress__line-part {
@@ -206,11 +206,12 @@ p {
   text-align: center; }
 
 .professional-skills__box {
+  width: 110rem;
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  position: relative;
   padding: 2.5rem;
   background-color: #313741; }
 
