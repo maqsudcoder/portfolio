@@ -12,11 +12,10 @@
 	}
 
 	&__line {
-		height: 1rem;
-		width: 30rem;
+		height: 0.75rem;
+		width: 42rem;
 		margin: auto;
 		background-color: $color-grey-dark;
-		border-radius: 5rem;
 
 		&-part {
 			position: relative;
@@ -29,11 +28,11 @@
 
 	&__dot {
 		position: absolute;
-		right: 0;
+		right: -1rem;
 		top: 50%;
 		transform: translateY(-50%);
-		height: 1.7rem !important;
-		width: 1.7rem !important;
+		height: 1.3rem !important;
+		width: 1.3rem !important;
 		background-color: $color-primary;
 		border-radius: 50%;
 		box-shadow: 0 0 5px 0px;
