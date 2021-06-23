@@ -84,6 +84,7 @@ p {
   .progress__line {
     height: 1rem;
     width: 30rem;
+    margin: auto;
     background-color: #22252c;
     border-radius: 5rem; }
     .progress__line-part {
