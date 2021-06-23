@@ -95,6 +95,12 @@
 }
 
 .professional-skills {
+	width: 100%;
+	background-color: $color-grey-light;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
 	&__heading {
 		position: relative;
 		padding: 6rem 0;
@@ -104,13 +110,14 @@
 
 	&__box {
 		width: 110rem;
+		margin: auto;
 		position: relative;
-		display: flex;
+		display: inline-flex;
 		justify-content: space-between;
 		align-items: center;
 		flex-wrap: wrap;
-		padding: 2.5rem;
+		gap: 3rem;
+		padding: 7.5rem 0;
 		background-color: $color-grey-light;
-
 	}
 }
