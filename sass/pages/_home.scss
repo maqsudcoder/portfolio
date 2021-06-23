@@ -103,12 +103,14 @@
 	}
 
 	&__box {
+		width: 110rem;
+		position: relative;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		flex-wrap: wrap;
-		position: relative;
 		padding: 2.5rem;
 		background-color: $color-grey-light;
+
 	}
 }
