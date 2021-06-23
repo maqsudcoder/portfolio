@@ -72,11 +72,15 @@ p {
   transform: translateX(-50%); }
 
 .progress {
+  height: 5rem;
   position: relative;
-  height: 4rem; }
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between; }
   .progress__title {
     display: block;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 2.2rem; }
   .progress__line {
     height: 1rem;
     width: 50rem;
@@ -90,9 +94,14 @@ p {
       border-radius: inherit; }
   .progress__dot {
     position: absolute;
-    height: 2rem !important;
-    width: 2rem !important;
-    background-color: red; }
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1.7rem !important;
+    width: 1.7rem !important;
+    background-color: #00d7bb;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0px; }
 
 .header {
   height: 100vh;
@@ -198,6 +207,7 @@ p {
 
 .professional-skills__box {
   position: relative;
+  padding: 2.5rem;
   background-color: #313741; }
 
 @media screen and (min-width: 112.5em) {
