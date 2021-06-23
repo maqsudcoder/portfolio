@@ -206,6 +206,10 @@ p {
   text-align: center; }
 
 .professional-skills__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: initial;
   position: relative;
   padding: 2.5rem;
   background-color: #313741; }
