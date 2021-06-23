@@ -82,11 +82,10 @@ p {
     text-transform: uppercase;
     font-size: 1.8rem; }
   .progress__line {
-    height: 1rem;
-    width: 30rem;
+    height: 0.75rem;
+    width: 42rem;
     margin: auto;
-    background-color: #22252c;
-    border-radius: 5rem; }
+    background-color: #22252c; }
     .progress__line-part {
       position: relative;
       height: 100%;
@@ -95,11 +94,11 @@ p {
       border-radius: inherit; }
   .progress__dot {
     position: absolute;
-    right: 0;
+    right: -1rem;
     top: 50%;
     transform: translateY(-50%);
-    height: 1.7rem !important;
-    width: 1.7rem !important;
+    height: 1.3rem !important;
+    width: 1.3rem !important;
     background-color: #00d7bb;
     border-radius: 50%;
     box-shadow: 0 0 5px 0px; }
@@ -200,21 +199,28 @@ p {
       .section-interests__list-icon:hover i {
         color: #22252c; }
 
-.professional-skills__heading {
-  position: relative;
-  padding: 6rem 0;
-  background-color: #22252c;
-  text-align: center; }
-
-.professional-skills__box {
-  width: 110rem;
-  position: relative;
+.professional-skills {
+  width: 100%;
+  background-color: #313741;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 2.5rem;
-  background-color: #313741; }
+  flex-direction: column;
+  justify-content: center; }
+  .professional-skills__heading {
+    position: relative;
+    padding: 6rem 0;
+    background-color: #22252c;
+    text-align: center; }
+  .professional-skills__box {
+    width: 110rem;
+    margin: auto;
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 7.5rem 0;
+    background-color: #313741; }
 
 @media screen and (min-width: 112.5em) {
   html {
