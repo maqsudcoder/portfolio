@@ -71,6 +71,29 @@ p {
   left: 50%;
   transform: translateX(-50%); }
 
+.progress {
+  position: relative;
+  height: 4rem; }
+  .progress__title {
+    display: block;
+    text-transform: uppercase; }
+  .progress__line {
+    height: 1rem;
+    width: 50rem;
+    background-color: #22252c;
+    border-radius: 5rem; }
+    .progress__line-part {
+      position: relative;
+      height: 100%;
+      width: 85%;
+      background-color: #00d7bb;
+      border-radius: inherit; }
+  .progress__dot {
+    position: absolute;
+    height: 2rem !important;
+    width: 2rem !important;
+    background-color: red; }
+
 .header {
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(0, 242, 152, 0.6), rgba(7, 247, 247, 0.6)), url(../img/hero.jpg);
