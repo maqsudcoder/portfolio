@@ -20,9 +20,33 @@
 		&-part {
 			position: relative;
 			height: 100%;
-			width: 85%;
+			width: 0;
 			background-color: $color-primary;
 			border-radius: inherit;
+		}
+
+		.p-html {
+			width: 85%;
+		}
+
+		.p-css {
+			width: 80%;
+		}
+
+		.p-javascript {
+			width: 65%;
+		}
+
+		.p-react {
+			width: 40%;
+		}
+
+		.p-angular {
+			width: 40%;
+		}
+
+		.p-python {
+			width: 40%;
 		}
 	}
 
