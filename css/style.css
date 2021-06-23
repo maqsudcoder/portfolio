@@ -80,7 +80,7 @@ p {
   .progress__title {
     display: block;
     text-transform: uppercase;
-    font-size: 2.2rem; }
+    font-size: 1.8rem; }
   .progress__line {
     height: 1rem;
     width: 50rem;
@@ -209,7 +209,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: initial;
+  flex-wrap: wrap;
   position: relative;
   padding: 2.5rem;
   background-color: #313741; }
