@@ -1,10 +1,14 @@
 .progress {
+	height: 5rem;
 	position: relative;
-	height: 4rem;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
 
 	&__title {
 		display: block;
 		text-transform: uppercase;
+		font-size: 2.2rem;
 	}
 
 	&__line {
@@ -24,8 +28,13 @@
 
 	&__dot {
 		position: absolute;
-		height: 2rem !important;
-		width: 2rem !important;
-		background-color: red;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		height: 1.7rem !important;
+		width: 1.7rem !important;
+		background-color: $color-primary;
+		border-radius: 50%;
+		box-shadow: 0 0 5px 0px;
 	}
 }
