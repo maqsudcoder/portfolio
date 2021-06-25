@@ -53,6 +53,17 @@ p {
   background-clip: text;
   color: transparent; }
 
+.heading-tertiary {
+  font-size: 4rem;
+  color: #22252c;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 0.8; }
+
+.heading-quaternary {
+  font-size: 2rem;
+  font-weight: 400; }
+
 .section-about__list {
   list-style: none;
   color: #fff; }
@@ -77,6 +88,14 @@ p {
   position: absolute;
   left: 50%;
   transform: translateX(-50%); }
+
+.btn,
+.btn:active,
+.btn:visited {
+  text-decoration: none !important; }
+
+.btn-secondary {
+  display: inline-block; }
 
 .progress {
   height: 5rem;
@@ -359,6 +378,23 @@ p {
     position: absolute;
     top: 0;
     right: -5rem; }
+
+.hire-me {
+  position: relative;
+  height: 30vh;
+  background-color: #00d7bb; }
+  .hire-me__content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 110rem; }
+    .hire-me__content .fa-paper-plane {
+      font-size: 7.5rem;
+      color: #22252c; }
 
 @media screen and (min-width: 112.5em) {
   html {
