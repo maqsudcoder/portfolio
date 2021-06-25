@@ -190,13 +190,15 @@ p {
     width: 90rem;
     justify-content: space-between;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%); }
   .section-interests__list-item {
     display: inline-flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    justify-content: space-between;
+    height: 14rem; }
   .section-interests__list-icon {
     position: relative;
     display: inline-flex;
@@ -227,7 +229,7 @@ p {
   justify-content: center; }
   .professional-skills__heading {
     position: relative;
-    padding: 6rem 0;
+    padding: 1rem 0 8rem 0;
     background-color: #22252c;
     text-align: center; }
   .professional-skills__box {
@@ -241,6 +243,32 @@ p {
     gap: 3rem;
     padding: 7.5rem 0;
     background-color: #313741; }
+
+.cards {
+  height: 75vh;
+  background-color: #22252c;
+  position: relative; }
+  .cards__content {
+    display: inline-flex;
+    gap: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .cards__item {
+    height: 35rem;
+    width: 35rem;
+    background-color: #313741;
+    transition: transform 0.3s; }
+    .cards__item:hover {
+      transform: scale(1.1);
+      background-color: #00d7bb !important; }
+
+.portfolio__heading {
+  position: relative;
+  padding: 8rem 0;
+  background-color: #22252c;
+  text-align: center; }
 
 @media screen and (min-width: 112.5em) {
   html {
