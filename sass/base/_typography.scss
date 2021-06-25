@@ -46,6 +46,19 @@ p {
 	color: transparent;
 }
 
+.heading-tertiary {
+	font-size: 4rem;
+	color: $color-grey-dark;
+	text-transform: uppercase;
+	font-weight: 900;
+	line-height: 0.8;
+}
+
+.heading-quaternary {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
 .section-about__list {
 	list-style: none;
 	color: $color-white;
