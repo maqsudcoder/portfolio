@@ -287,15 +287,19 @@
 .hire-me {
 	position: relative;
 	height: 30vh;
+	width: 100%;
 	background-color: $color-primary;
 
 	&__content {
 		@include center;
 
-		display: flex;
+		display: inline-flex;
+		flex-direction: row;
 		justify-content: space-between;
+		align-items: center;
 		gap: 3rem;
 		width: 110rem;
+
 		.fa-paper-plane {
 			font-size: 7.5rem;
 			color: $color-grey-dark;
