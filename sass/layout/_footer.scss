@@ -27,17 +27,28 @@
 		align-items: center;
 		gap: 1rem;
 	}
-	
+
 	&__social-item {
 		background-color: $color-grey-light;
 		height: 5rem;
 		width: 5rem;
 		display: grid;
 		place-items: center;
+		cursor: pointer;
 		border-radius: 50%;
-		
+		transition: background-color 0.5s;
+
 		ion-icon {
 			color: $color-primary !important;
+			font-size: 2.5rem;
+		}
+
+		&:hover {
+			background-color: $color-primary;
+
+			ion-icon {
+				color: $color-grey-dark !important;
+			}
 		}
 	}
 }
