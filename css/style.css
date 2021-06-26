@@ -168,7 +168,24 @@ p {
     flex-direction: row;
     align-items: center; }
   .footer__logo img {
-    height: 20rem; }
+    height: 15rem; }
+  .footer__copyright-text {
+    font-size: 1.6rem;
+    color: #fff; }
+  .footer__social-icons {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem; }
+  .footer__social-item {
+    background-color: #313741;
+    height: 5rem;
+    width: 5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%; }
+    .footer__social-item ion-icon {
+      color: #00d7bb !important; }
 
 .header {
   height: 100vh;
