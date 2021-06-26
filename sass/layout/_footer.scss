@@ -1,0 +1,18 @@
+.footer {
+	position: relative;
+	height: 75vh !important;
+	width: 100%;
+	background-color: $color-grey-dark;
+
+	&__box {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	&__logo {
+		img {
+			height: 20rem;
+		}
+	}
+}
