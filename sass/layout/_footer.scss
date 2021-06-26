@@ -12,7 +12,32 @@
 
 	&__logo {
 		img {
-			height: 20rem;
+			height: 15rem;
+		}
+	}
+
+	&__copyright-text {
+		font-size: 1.6rem;
+		color: $color-white;
+	}
+
+	&__social-icons {
+		display: inline-flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 1rem;
+	}
+	
+	&__social-item {
+		background-color: $color-grey-light;
+		height: 5rem;
+		width: 5rem;
+		display: grid;
+		place-items: center;
+		border-radius: 50%;
+		
+		ion-icon {
+			color: $color-primary !important;
 		}
 	}
 }
