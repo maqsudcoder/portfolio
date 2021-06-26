@@ -183,9 +183,16 @@ p {
     width: 5rem;
     display: grid;
     place-items: center;
-    border-radius: 50%; }
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.5s; }
     .footer__social-item ion-icon {
-      color: #00d7bb !important; }
+      color: #00d7bb !important;
+      font-size: 2.5rem; }
+    .footer__social-item:hover {
+      background-color: #00d7bb; }
+      .footer__social-item:hover ion-icon {
+        color: #22252c !important; }
 
 .header {
   height: 100vh;
