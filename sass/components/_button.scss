@@ -5,5 +5,20 @@
 }
 
 .btn-secondary {
+	text-align: center;
+	text-transform: uppercase;
 	display: inline-block;
+	width: 15rem;
+	padding: 1rem 3rem;
+	background-color: $color-grey-dark;
+	color: $color-primary;
+	border-radius: 5px;
+	border: 3px solid transparent;
+	transition: all 0.3s;
+
+	&:hover {
+		background-color: $color-primary;
+		border: 3px solid $color-grey-dark;
+		color: $color-grey-dark;
+	}
 }
